@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CipherGuard</string>
+
+    <!-- Navigation -->
+    <string name="nav_tunnel">Туннель</string>
+    <string name="nav_servers">Серверы</string>
+    <string name="nav_security">Защита</string>
+
+    <!-- Notification -->
+    <string name="vpn_notification_channel_id">cipherguard_vpn_tunnel</string>
+    <string name="vpn_notification_channel_name">Защищённый VPN-туннель</string>
+    <string name="vpn_notification_channel_desc">Показывает состояние шифрования WireGuard / AES-256-GCM и статистику трафика</string>
+    <string name="vpn_notification_title_connected">CipherGuard • Подключено</string>
+    <string name="vpn_notification_title_connecting">CipherGuard • Рукопожатие…</string>
+    <string name="vpn_notification_action_disconnect">Отключить</string>
+
+    <!-- Tunnel Status -->
+    <string name="status_disconnected">Туннель отключён</string>
+    <string name="status_preparing">Запрос системного разрешения VPN…</string>
+    <string name="status_connecting">Криптографическое рукопожатие…</string>
+    <string name="status_connected">Туннель зашифрован и активен</string>
+    <string name="status_error">Ошибка соединения</string>
+
+    <!-- Actions & Labels -->
+    <string name="action_connect">Подключить VPN</string>
+    <string name="action_disconnect">Отключить VPN</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_import_conf">Импорт .conf</string>
+    <string name="action_paste_conf">Вставить конфиг</string>
+    <string name="action_add_manual">Добавить вручную</string>
+    <string name="action_generate_keys">Сгенерировать ключи</string>
+    <string name="action_grant_vpn_perm">Разрешить доступ VPN</string>
+    <string name="action_open_system_vpn">Системные настройки VPN</string>
+    <string name="action_refresh_ip">Обновить IP</string>
+    <string name="action_run_crypto_check">Проверить криптографию</string>
+
+    <!-- IP & Location -->
+    <string name="ip_label_unprotected">Реальный IP (без VPN)</string>
+    <string name="ip_label_protected">Маскированный IP (через VPN)</string>
+    <string name="ip_label_checking">Определение IP и геолокации…</string>
+    <string name="ip_label_unavailable">Сеть недоступна</string>
+
+    <!-- Errors -->
+    <string name="error_no_server_selected">Сначала импортируйте или создайте профиль сервера WireGuard</string>
+    <string name="error_vpn_permission_denied">Системное разрешение VPN не выдано пользователем</string>
+    <string name="error_invalid_config">Некорректная конфигурация WireGuard</string>
+</resources>

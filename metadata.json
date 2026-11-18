@@ -1,0 +1,6 @@
+{
+  "name": "CipherGuard",
+  "description": "Защищённый VPN-клиент для Android с поддержкой WireGuard, реальным шифрованием AES-256-GCM, сменой IP-адреса и маскировкой местоположения.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
